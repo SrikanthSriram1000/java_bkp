@@ -1,0 +1,10 @@
+package com.interview.fibanocci;
+
+public class FibanocciTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
