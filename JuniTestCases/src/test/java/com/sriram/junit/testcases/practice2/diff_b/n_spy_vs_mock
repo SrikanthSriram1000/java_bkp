@@ -1,0 +1,4 @@
+ we have created a spy of the ArrayList class and checked its size. The size of the list is zero, it means the list is empty. After checking the list size, we have added an item ("Mockito") in the List. Now, the size has increased by one as we have discussed that the spy creates a partial mock of the real object.
+ 
+ 
+ WHERE AS FOR mock even though if you do any modification on mock pbject there won't be any reflect on te mock obj
