@@ -1,4 +1,5 @@
 FROM tomcat:latest
+WORKDIR /app
+COPY target/docker-proj-0.0.1-SNAPSHOT.jar app.jar
 EXPOSE 8080
-COPY target/docker-proj-0.0.1-SNAPSHOT.jar /usr/local/tomcat/webapps/
-CMD ["java", "-jar", "docker-proj-0.0.1-SNAPSHOT.jar"]
+CMD ["java", "-jar", "app.jar"]
